@@ -41,7 +41,7 @@ lazy val sbtPlugin = project
       "software.amazon.smithy" % "smithy-trait-codegen" % "1.68.0",
       "software.amazon.smithy" % "smithy-model" % "1.68.0",
     ) ++ Seq(
-      "com.lihaoyi" %% "os-lib" % "0.11.6"
+      "com.lihaoyi" %% "os-lib" % "0.11.8"
     ),
     pluginCrossBuild / sbtVersion := {
       scalaBinaryVersion.value match {
